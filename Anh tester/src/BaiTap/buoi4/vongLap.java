@@ -1,6 +1,5 @@
 package BaiTap.buoi4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class vongLap {
@@ -12,10 +11,7 @@ public class vongLap {
     System.out.println("Nhap vao so phan tu: ");
     n = sc.nextInt();
     for (int i = 1; i < n; i = i + 2) {
-
-      int arr[] = {i+1};
-      System.out.println(Arrays.toString(arr));
-
+      System.out.println(i+1);
     }
   }
 
