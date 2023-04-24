@@ -17,7 +17,7 @@ public class Basic2 {
 
   public void hienThiThongTin() {
     System.out.println(tinhTong(3, 3));
-    System.out.println(tinhTich(2, 3));
+    System.out.println(tinhTich(4, 3));
   }
 
   public static void main(String[] args) {
