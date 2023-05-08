@@ -54,7 +54,16 @@ public class SinhVien {
   public void setLop(Lop lop) {
     this.lop = lop;
   }
-  public String layTenKhoa(){
+
+  public String layTenKhoa() {
     return this.lop.getTenKhoa();
+  }
+
+  public boolean kiemTraDiem() {
+    if (this.diemTrungBinh > 5) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
