@@ -21,7 +21,11 @@ public class vongLap {
     }
     System.out.print(a);
   }
-
+  public void vongLapFore() {
+    System.out.println("Nhap vao so phan tu: ");
+    n = sc.nextInt();
+    int arr[];
+  }
   public static void main(String[] args) {
     vongLap vl = new vongLap();
     vl.vongLapFor();
