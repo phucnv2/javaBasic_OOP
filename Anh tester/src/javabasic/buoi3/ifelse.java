@@ -1,4 +1,4 @@
-package buoi3;
+package javabasic.buoi3;
 
 import java.util.Scanner;
 

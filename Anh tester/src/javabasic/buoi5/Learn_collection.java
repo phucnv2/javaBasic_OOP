@@ -1,4 +1,4 @@
-package buoi5;
+package javabasic.buoi5;
 
 import java.util.ArrayList;
 

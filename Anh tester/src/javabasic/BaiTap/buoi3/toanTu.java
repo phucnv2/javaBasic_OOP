@@ -1,4 +1,4 @@
-package BaiTap.buoi3;
+package javabasic.BaiTap.buoi3;
 
 import java.util.Scanner;
 

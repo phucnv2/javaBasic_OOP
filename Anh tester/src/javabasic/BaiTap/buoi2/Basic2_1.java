@@ -1,4 +1,4 @@
-package BaiTap.buoi2;
+package javabasic.BaiTap.buoi2;
 
 public class Basic2_1 {
   public static void tinhTong(double x, double y) {

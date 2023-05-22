@@ -1,4 +1,4 @@
-package buoi4;
+package javabasic.buoi4;
 
 public class vongLapFor {
   public static void main(String[] args) {

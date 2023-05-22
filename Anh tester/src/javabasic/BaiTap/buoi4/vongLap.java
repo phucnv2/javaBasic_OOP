@@ -1,4 +1,4 @@
-package BaiTap.buoi4;
+package javabasic.BaiTap.buoi4;
 
 import java.util.ArrayList;
 import java.util.List;
