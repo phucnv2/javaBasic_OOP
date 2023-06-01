@@ -1,14 +1,30 @@
 package javaoop.bai2.donggoi;
 
 public class Student {
+    private String mssv;
     private String name;
     private int age;
-    private float height;
+    private String gender;
+    private String email;
+    private String phone;
+    private String address;
 
-    public Student(String name, int age, float height) {
+    public Student(String mssv, String name, int age, String gender, String email, String phone, String address) {
+        this.mssv = mssv;
         this.name = name;
         this.age = age;
-        this.height = height;
+        this.gender = gender;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+    }
+
+    public String getMssv() {
+        return mssv;
+    }
+
+    public void setMssv(String mssv) {
+        this.mssv = mssv;
     }
 
     public String getName() {
@@ -27,11 +43,35 @@ public class Student {
         this.age = age;
     }
 
-    public float getHeight() {
-        return height;
+    public String getGender() {
+        return gender;
     }
 
-    public void setHeight(float height) {
-        this.height = height;
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
